@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Demo</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--  navbar -->
+      <nav>
+        <ul>
+          <li>
+            <a href="">Gmail</a>
+          </li>
+          <li>
+            <a href="">Görseller</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Search bar -->
+    <div align="center" style="margin-top: 8%">
+      <img class="images" src="./googlelogog.png" /><br />
+      <input class="input" type="text" />
+    </div>
+    <div align="center" style="margin-top: 25px;">
+      <button style="margin-right: 5px;" class="buttons">Google'da Ara</button>
+      <button style="margin-left: 5px;" class="buttons">Kendimi Şanslı Hissediyorum</button>
+    </div>
+
+    <!-- Bottom bar -->
+    <div
+      style="
+        background-color: rgba(242, 242, 242, 1);
+        width: 99.4%;
+        bottom: 0px;
+        position: absolute;
+        left: 0px;
+      "
+    >
+      <div
+        style="
+          width: 100%;
+          border-bottom: 1px solid rgba(218, 220, 224);
+          margin: 0px;
+          padding: 0px;
+        "
+      >
+        <p
+          style="
+            margin-left: 25px;
+            color: rgba(0, 0, 0, 0.54);
+            font-size: 15px;
+            font-family: arial, sans-serif;
+          "
+        >
+          Türkiye
+        </p>
+      </div>
+      <div style="width: 100%; margin: 0px; padding: 0px">
+        <!--  //sol kısım -->
+        <div style="float: left;">
+          <nav>
+            <ul>
+              <li>
+                <a
+                  style="
+                    margin-left: 25px;
+                    color: rgba(0, 0, 0, 0.54);
+                    font-size: 15px;
+                    font-family: arial, sans-serif;
+                  "
+                  href=""
+                  >Arama nasıl çalışır?</a
+                >
+              </li>
+              <li>
+                <a
+                  style="
+                    margin-left: 25px;
+                    color: rgba(0, 0, 0, 0.54);
+                    font-size: 15px;
+                    font-family: arial, sans-serif;
+                  "
+                  href=""
+                  >İşletme</a
+                >
+              </li>
+              <li>
+                <a
+                  style="
+                    margin-left: 25px;
+                    color: rgba(0, 0, 0, 0.54);
+                    font-size: 15px;
+                    font-family: arial, sans-serif;
+                  "
+                  href=""
+                  >Reklam</a
+                >
+              </li>
+              <li>
+                <a
+                  style="
+                    margin-left: 25px;
+                    color: rgba(0, 0, 0, 0.54);
+                    font-size: 15px;
+                    font-family: arial, sans-serif;
+                  "
+                  href=""
+                  >Hakında</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .container {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+      }
+      .buttons {
+        font-family: arial, sans-serif;
+        font-size: 14px;
+        background-color: rgba(248, 249, 250);
+        border: none;
+        padding: 12px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .buttons:hover {
+        border: 1px solid rgba(0, 0, 0, 0.54);
+      }
+      
+      .images {
+        position: relative;
+        object-position: center;
+        width: 20%;
+        margin: 35px;
+      }
+      .input {
+        width: 40%;
+        height: 40px;
+        border: 1px solid #dfe1e5;
+        border-radius: 30px;
+        font-size: 17px;
+        text-decoration: none;
+        box-shadow: none;
+      }
+      .input:focus {
+        outline: none;
+      }
+      ul {
+        padding: 0px;
+      }
+      li {
+        display: inline;
+        margin: 10px;
+        font-family: arial, sans-serif;
+        float: right;
+      }
+      a {
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.87);
+        text-decoration: none;
+        text-underline-offset: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      nav {
+        overflow: hidden;
+      }
+    </style>
+  </body>
+</html>
